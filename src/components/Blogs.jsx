@@ -1,17 +1,19 @@
 import React, { useContext } from 'react'
 import { AppContext } from '../context/AppContext'
 import Spinner from "./Spinner"
+import "../App.css"
 
 const Blogs = () => {
   const{post,loading} = useContext(AppContext);
 
   return (
-    <div className=' w-11/12 max-w-[800px] flex flex-col justify-center items-center min-h-screen mx-auto mb-3 gap-y-10  mt-28' >
+    <div className=' screen w-11/12 max-w-[800px] flex flex-col justify-center items-center min-h-screen mx-auto mb-3 gap-y-10  mt-28 
+  ' >
     {
       loading?(<Spinner/>):
       (
         post.length === 0 ?
-        (<div>
+        (<div> 
           <h1>No page found</h1>
         </div>):
 
