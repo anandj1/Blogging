@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+    overflow-x: hidden;
+    
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background: rgb(63,251,132);
+background: radial-gradient(circle, rgba(63,251,132,1) 0%, rgba(252,70,175,1) 100%);
+   
+}
+.screen{
+    @media (max-width:800px) {
+        width: 11/12px;
+        max-width: 500px;
+        margin-top: 10px;
+    
+
+
+
+
+
+    }
+}
+.header{
+    @media(max-width:800px){
+        position: relative;
+        top: 0px;
+    }
+}
