@@ -46,6 +46,7 @@ export  const AppContext = createContext();
   }
 
   const required_data= {
+
     post,
     setPost,
     page,
@@ -55,7 +56,8 @@ export  const AppContext = createContext();
     totalPage,
     SetTotalPage,
     fetchData,
-    PageHandler
+    PageHandler,
+  
   }
 
   // Step 02 Context Provider

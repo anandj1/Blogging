@@ -9,8 +9,10 @@ export default function App() {
     const { fetchData } = useContext(AppContext);
   
     useEffect(() => {
+    
      
       fetchData();
+       // eslint-disable-next-line 
     },[]);
 
   
