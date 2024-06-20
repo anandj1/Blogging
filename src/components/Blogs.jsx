@@ -1,7 +1,9 @@
 import React, { useContext } from 'react'
 import { AppContext } from '../context/AppContext'
 import Spinner from "./Spinner"
-import "../App.css"
+import "./Blog.css"
+
+
 
 const Blogs = () => {
   const{post,loading} = useContext(AppContext);

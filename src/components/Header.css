@@ -1,0 +1,6 @@
+.header{
+    @media(max-width:800px){
+        position: relative;
+        top: 0px;
+    }
+}

@@ -1,4 +1,5 @@
 import "../App.css"
+import "./Header.css"
 export default function Header() {
   return (<div className=" w-full header fixed top-0 heading ; ">
    <header className=" shadow-xl   text-center " >
