@@ -1,8 +1,8 @@
 .screen{
     @media (max-width:800px) {
-        width: 11/12px;
+        width: 60%;
         max-width: 500px;
-        margin-top: 10px;
+        margin: auto;
     
 
 
